@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en"?
+<head>
+	<meta charset="UTF-8">
+	<meta name ="viewpoint"
+content="width=device-width, initial-
+scale=1.0">
+	<title>L.R.Fowler | Portfolio</ 
+title>
+	<link rel+"stylesheet"
+href="style.css">
+	<link rel="stylesheet"
+href="https://cdnjs.cloudfare.com/
+ajax/libs/font-awesome/6.4.0/css/
+all.min.css">
+	<link href="https://
+fonts.googleapis.com/css2?
+family=Poppins:wght@300;400;500;600;700
+&famiy=Roboto:wght@300;400&display=swa
+p" rel="stylesheet">
+</head>
+<body>
+	<!-- Navigation -->
+	<nav>
+	    <div class="container">
+		<a href="#"
+class="logo">L.R.Fowler</a>
+		<div class="nav-links">
+		    <a href="#home">Home</
+a>
+		    <a
+href="#about">About</a>
+		    <a
+href="#projects">Projects</a>
+		    <a
+href="#contact">Contacts</a>
+		</div>
+		<button class="menu-
+toggle">
+			<i class="fas fa-
+bars"></i>
+		</button>
+	    </div>
+	</nav>
+
+	<!-- Hero Section -->
+	<section d="home" class="hero">
+		<div class"container">
+		    <div class="hero-content">
+			<h1>Hi, I'm <span
+class="highlight">L.R.Fowler</span></h1>
+			<h2>Web Developer &
+Designer</h2>
+			<p>I build beautiful,
+functional websites with clean code and
+modern design principles.</p>
+			<a href="#projects"
+class="btn">View My Work</a>
+		<div>
+<div class="hero-image">
+			<div class="image-
+placeholder">
+			<!-- Replace with
+your image or SVG -->
+			<i class="fas-
+laptop-code"></i>
+		</div>
+	   </div>
+	</div>
+	</section>
+
+	<!-- About Section -->
+	<section id="about" class="about">
+		<div class="container">
+			<h2 class="section-
+title">About Me</h2>
+	<div class="about-content">
+		<div class="about-
+text">
+		<p>I'm a passionate
+developer with experiance in HTML, CSS, 
+JavaScript, CPP, and modern frameworks. I
+love creating digital experiances that make a difference and lasting insperation.</p>
+		<p>When I'm not
+coding, you can find me exploring new
+technologies, contributing to open
+source, or enjoying the outdoors.</p>
+		<div
+class="skills">
+
+class="skill-tags">
+CSS,/span>
+<span>JavaScript</span>
+<span>React</span>
+<span>Python</span>
+				<span>Git</
+span>
+				<span>UI/
+UX</span>
+			</div>
+		     </div>
+		   </div>
+		 </div>
+	       </div>
+	   </section>
+
+	<!-- Projects Section -->
+	<section id="projects"
+class="projects">
+	<div class="container">
+	  <h2 class="section-
+title">My Projects</h2>
+	<div class="project-grid">
+		<div class="project-
+card">
+		<div
+class="project-icon">
+			<i class="fas
+fa-shopping-cart"></i>
+		</div>
+		<h3>E-Commerce
+site</h3>
+		<p>Full-featured
+online store with cart functionality
+and payment intergation.</p>
+		<div class="tech-
+stack">
+			<span>HTML</
+span>
+			<span>CSS</
+span>
+
+<span>JavaScript</span>
+		  </div>
+		</div>
+		
+		<div class="project-
+card">
+		<div
+class="project-icon">
+			<i class="fas
+fa-chart-line"></i>
+		</div
+		<h3>Analytics
+Dashboard</h3>
+			<p>Interactive data
+visualization dashboard with real-time
+updates.</p>
+		<div class="tech-
+stack">
+			<span>React</
+span>
+		</div>
+	     </div>
+
+		<div class="project-
+card">
+		<div
+class="project-icon">
+			<i cass="fas
+fa-mobile-alt"></i>
+			</div>
+			<h3>Mobile App</h3>
+			<p>Cross-platform
+mobile aplication for task managment
+and productivity.</p>
+			</div
+		     </div>
+		 </div>
+	      </div>
+	</section>
+
+	<!-- Content Section -->
+	<section id="contact"
+class="contact">
+	<div class="container">
+	  <h2 class="section-
+title">Get In Touch</h2>
+		<div class="contact-
+content">
+		<div class="contact-
+info">
+		<div
+class="contact-item">
+			<i class=fas
+fa-envelope"></i>
+
+<span>saltyr34p3r83@gmail.com</span>
+			</div
+			</div>
+			<form class="contact-
+form" id="contactform">
+			<input type="text"
+placeholder="L.R.Fowler" required>
+		<input type="email"
+placeholder="saltyr34p3r83@gmail.com" required>
+			<textarea
+placehoder="Contact me if you have questions." row="5"
+required></textarea>
+			<button
+type="submite" class="btn">Send
+Message</button>
+		</form
+	   </div>
+	</div>
+	</section>
+
+	<!-- Footer -->
+	<footer>
+	   <div class="container">
+		<p>&copy; 2026 L.R.Fowler.
+All rights reserved.</p>
+		</div>
+		</footer>
+
+		<script src="script.js"></script>
+</body>
+</html>

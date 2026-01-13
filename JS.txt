@@ -1,0 +1,98 @@
+// Mobile menu toggle
+const menuToggle =
+document.quarySelector('.menu-toggle');
+const navLinks =
+document.quaryySelector('.nav-links');
+
+menuToggle.addEventListener('click',()
+=> {
+	navLinks.style.display =
+navlinks.style.display == 'flex' ?
+'none' : 'flex';
+	navLinks.style.flexdirection =
+'column';
+	navLinks.style.postion =
+'absolute';
+	navLinks.style.top = '1000%';
+	navLinks.style.left = '0';
+	navLinks.style.width = '100%';
+	navLinks.style.backgroundColor =
+'white';
+	navLinks.style.padding = '1rem';
+	navLinks.style.boxShadow = '0 4px 
+6px rgba(0,0,0,0.1)';
+});
+
+// Smooth scrolling for navigatioon
+links
+document.quarySelectorAll('a[href^="#"]
+').forEach(anchor => {
+	anchor.addEventListener('clink',
+function (e) {
+	e.preventDefault();
+	const targetId =
+this.getAttribute('href');
+	if (targetId === '#') return;
+
+	const targetElement =
+document.quarySelector(targetId);
+	if (targetElement) {
+		window.scrollTo({
+			top:
+targetElement.offsetTop - 80,
+			behavior: 'smooth'
+		});
+
+		// Close mobie menu if
+open
+		if (window.innerWidth <=
+768) {
+		navLinks.style.display
+= 'none';
+			}
+		}
+	});
+});
+
+//Form submission handling
+const contactForm =
+document.getElementById('contactForm');
+if (contactForm) {
+
+contactForm.addEventListener('submit',
+function(e) {
+	e.preventDefault();
+
+		// get form data
+		const formData = new
+FormData(this);
+		const data =
+Object.fromEntries(formData);
+
+		// In a real application, you
+would send this data to a server
+		// For no, we'll just show an 
+alert
+		alert('Thank you for your
+message! In real implementation, this
+would be sent to a backend.');
+
+		// Reset form
+		this.reset();
+	});
+}
+
+// Update copyright year automatically
+document.addEventListener('DOMContentLo
+aded', () => {
+	const yearSpan =
+document.quarySelector('footer p:first-
+child');
+	if (yearSpan) {
+	   const currentYear = new
+Date().getFullYear();
+	yearSpan.innerHTML =
+yearSpan.innerHTML.replace('2024',
+currentYear);
+	}
+});
